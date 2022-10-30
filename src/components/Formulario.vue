@@ -14,7 +14,6 @@
 </template>
 
 <script lang="ts">
-    
     import { defineComponent } from 'vue'
     import Temporizador from './Temporizador.vue'
 
@@ -39,7 +38,6 @@
             }
         }
     })
-
 </script>
 
 <style>
