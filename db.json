@@ -8,5 +8,30 @@
       "nome": "ByteBank",
       "id": 2
     }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente Vue",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker 3.0"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Refatoração do VueJs",
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Estudando padrões de projeto do VueJs",
+      "projeto": {
+        "nome": "ByteBank",
+        "id": 2
+      },
+      "id": 3
+    }
   ]
 }
