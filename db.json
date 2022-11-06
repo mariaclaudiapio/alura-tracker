@@ -2,11 +2,15 @@
   "projetos": [
     {
       "id": 1,
-      "nome": "Alura Tracker"
+      "nome": "Alura Tracker 3.0"
     },
     {
-      "nome": "ByteBank",
-      "id": 2
+      "id": 2,
+      "nome": "ByteBank 2.0"
+    },
+    {
+      "nome": "Estudando padrões de projeto",
+      "id": 3
     }
   ],
   "tarefas": [
@@ -32,6 +36,20 @@
         "id": 2
       },
       "id": 3
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "Estudar VueJs",
+      "id": 4
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "Teste 02",
+      "projeto": {
+        "id": 2,
+        "nome": "ByteBank 2.0"
+      },
+      "id": 5
     }
   ]
 }
